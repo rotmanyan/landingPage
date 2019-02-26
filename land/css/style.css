@@ -497,6 +497,11 @@
 }
 
 @media all and (min-width: 1024px) {
+    #cafe, #video, #bread, #pastry {
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
 
     .navigation__list {
         flex-basis: 35%;
